@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "manrope" sans-serif;
+}
+/* the first section of the website that consist the header and the hero section */
+.hero-section{
+    width: 100%;
+    height: 130vh;
+    /* border: 1px solid red; */
+    padding: 25px 30px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.vivLogo{
+    width: 100px;
+    height: 50px;
+    /* border: 1px solid green; */
+}
+.nav{
+
+    width: 320px;
+    height: 50px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav p{
+    font-size: 15px;
+    font-weight: 600px;
+}
+.signUp{
+    width: 110px;
+    height: 40px;
+    /* border: 1px solid green; */
+    align-items: center;
+    justify-items: center; 
+    display: flex;  
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 5px;
+
+}   
+.signUp p{
+    text-align: center;
+    color: #ffff;
+}
+.HeroDesign{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.HeroDesign img{
+    width: 80%;
+    height: 550px;
+}
+/* ###################################### */
+/* Our Services Section */
+.our-services{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid blue; */
+    padding: 20px 50px;
+    /* display: flex; */
+}
+.our-services img{
+    width: 90px;
+}
+.our-services h2{
+    display: inline;
+    font-size: 45px;
+    margin-left: 20px;
+}
+.our-services-wrap{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid blue; */
+    display: flex;
+    margin-top: 80px;
+}
+/* #### */
+.services-lighting{
+    width: 400px;
+    height: 145px;
+    /* border: 1px solid green; */
+
+}
+.sl-content{
+    display: flex;
+}
+.sl-content img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.sl-content h4{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.services-lighting p{
+    margin-left: 80px;
+    width: 250px;
+    margin-top: 5px;
+    color: #545454;
+
+}
+/* #### */
+.services-interior{
+    width: 400px;
+    height: 145px;
+    /* border: 1px solid green; */
+
+}
+.in-content{
+    display: flex;
+}
+.in-content img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.in-content h4{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline;
+}
+.services-interior p{
+    margin-left: 80px;
+    width: 250px;
+    margin-top: 5px;
+    color: #545454;
+
+}
+/* ##### */
+.services-outdoor{
+    width: 400px;
+    height: 145px;
+    /* border: 1px solid green; */
+}
+.out-content{
+    display: flex;
+}
+.out-content img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.out-content h4{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline;
+}
+.services-outdoor p{
+    margin-left: 80px;
+    width: 250px;
+    margin-top: 5px;
+    color: #545454;
+
+}
+ /* ############################################## */
+ .brilliance-session{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid blue; */
+    display: flex;
+   
+    
+ }
+.brilliance-session-wrap{
+    width: 90%;
+    height: 80vh;
+    /* border: 1px solid blue; */
+    display: flex;
+    margin: auto auto; 
+}
+.brilliance-image{
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid blue; */
+    
+}
+.brilliance-image img{
+    height: inherit;
+    width: 550px;
+    padding: 20px 10px;
+}
+.brilliance-content{
+    width: 55%;
+    height: inherit;
+    /* border: 1px solid blue; */
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.brilliance-content h1{
+    width: 400px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.brilliance-content p{
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #545454;
+}
+
+.bc1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.bc2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.brilliance-content button{
+    width: 140px;
+    height: 45px;
+    color: #ffffff;
+    background-color: #1f1f1f;
+    margin-top: 47px;
+    border-color: #1f1f1f;
+    border-radius: 5px;
+    /* display: block; */    
+}
+
+/* ############################################ */
+/* the beginning of Dream session */
+.dream-session{
+    width: 100%;
+    height: 650px;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dream-steps{
+    width: 550px;
+    height: 600px;
+    /* border: 1px solid green; */
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;   
+}
+.dream-steps h2{
+    font-size: 45px;
+    margin-left: 40px;
+}
+.start{
+    width: 450px;
+    height: 120px;
+    /* border: 1px solid blue; */
+}
+.st1{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.st1 img{
+    height: 40px;
+    height: 40px;
+}
+.st1 h4{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.st2{
+    display: flex;
+    justify-content: space-between;
+}
+.st2 img{
+    margin-left: 20px;
+    height: 50px;
+    margin-top: 10px;
+}
+.st2 p{
+    width: 380px;
+    color: #545454;
+}
+
+/* ######################################### */
+
+.craft{
+    width: 450px;
+    height: 120px;
+    /* border: 1px solid blue; */
+}
+.c1{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.c1 img{
+    height: 40px;
+    height: 40px;
+}
+.c1 h4{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.c2{
+    display: flex;
+    justify-content: space-between;
+}
+.c2 img{
+    margin-left: 20px;
+    height: 50px;
+    margin-top: 10px;
+}
+.c2 p{
+    width: 380px;
+    color: #545454;
+}
+/* #################################### */
+.execute{
+    width: 450px;
+    height: 120px;
+    /* border: 1px solid blue; */
+    align-items: center;
+    
+}
+.ex1{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.ex1 img{
+    height: 40px;
+    height: 40px;
+}
+.ex1 h4{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.ex2{
+    display: flex;
+    justify-content: space-between;
+}
+.ex2 img{
+    margin-left: 20px;
+    height: 50px;
+    margin-top: 10px;
+}
+.ex2 p{
+    width: 380px;
+    color: #545454;
+}
+
+/* ###################################### */
+.dream-image{
+    width: 550px;
+    height: 600px;
+    /* border: 1px solid green; */
+}
+.dream-image img{
+    width: 550px;
+    height: 600px;
+}
+/* ########################################### */
+/* About Us session  */
+.testimony{
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px 20px; */
+    position: relative;
+}
+.testimony-wrap{
+    width: 80%;
+    height: 85vh;
+    /* border: 1px solid red; */
+    padding: 20px 40px;
+}
+.testimony-aboutus{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+.testimony-aboutus img{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    z-index: 2;
+}
+.testimony-aboutus h1{
+    /* height: 400px; */
+    width: 350px;
+    margin-right: 60px;
+}
+/* .testimony-wrap img{
+   
+    width: 40px;
+    height: 40px;
+} */
+.sophie-testimony{
+    width: 850px;
+    height: 330px;
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    left: 25%;
+    top: 160px;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    
+}
+.sophie-testimony img{
+    width: 390px;
+    height: 350px;
+    /* position: absolute;
+    z-index: 5;
+    left: 65%;
+    top: -25px; */
+}
+/* ############################################# */
+/* subscribe session */
+.subscribe{
+    width: 700px;
+    height: 350px;
+    /* border: 1px solid green; */
+    margin: auto auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.subscribe h1{
+    width: 450px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    /* height: 400px; */
+    /* border: 1px solid green;
+    margin: auto auto; */
+}
+.subscribe h5{
+    width: 450px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #1f1f1f;
+   
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border: 2px solid #ffffff;
+    width: 450px;
+    height: 50px;
+    background-color: #ffffff;
+}
+.email input{
+    width: 300px;
+    height: 50px;
+    background-image: url(./images/email\ logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-indent: 20px;
+    padding: 10px 10px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    
+}
+.email button{
+    width: 150px;
+    height: 49px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 5px;
+    border-color: #ffffff;
+}
+/* #################################################### */
+.end-session{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-color: #1f1f1f;
+    padding-top: 100px;
+}
+.viva{
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid green; */
+    padding: 20px 10px;
+}
+.vdlogo{
+    width: 230px;
+    height: 100px;
+    /* border: 1px solid green; */
+}
+.viva p{
+    color: #d1d1d1;
+    margin-top: 10px;
+    margin-top: 10px;
+    font-weight: 300px;
+}
+.social-media{
+    width: 230px;
+    height: 70px;
+    /* border: 1px solid green; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.social-media img{
+    height: 40px;
+    width: 40px;
+}
+/* ###### */
+.viva2{
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid green; */
+    padding: 20px 20px;
+
+}
+.viva2 h4{
+    color: #d1d1d1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.viva2 p{
+    color: #d1d1d1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: 400px;
+}
+/* ##### */
+.viva3{
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid green; */
+    padding: 20px 20px;
+}
+.viva3 h4{
+    color: #d1d1d1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.viva3 p{
+    color: #d1d1d1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: 400px;
+}
+/* ##### */
+.viva4{
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid green; */
+    padding: 20px 20px;
+}
+.viva4 h4{
+    color: #d1d1d1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.viva4 p{
+    color: #d1d1d1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: 400px;
+}
